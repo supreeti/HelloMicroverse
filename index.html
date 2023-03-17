@@ -4,10 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <title>AwesomeBooks library</title>
     <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
-    <h1 class="h">Hello Microverse!</h1>
+    <header>
+        <h2 class="mylogo">AwesomeBooks Online Library</h2>
+        <nav class="links">
+            <ul>
+                <li>List</li>
+                <li>Add</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="date" id="currdate"></div> 
+        <section class="book">        
+        <h2>All Awesome Books List</h2>
+          
+            <div class="allbooks">
+                
+            </div>
+         
+        </section>
+        <section class="addbook hide" id="form">
+           
+                <h3>Add New books</h3>
+           
+                <form>
+                <input type="text" name="" id="title" placeholder="Title">
+                <input type="text" name="" id="author" placeholder="Author">
+                <button type="button" id="add">Add</button>
+            </form>
+        </section>
+        <section class="contat hide">
+            <h2>Contact Info </h2>    
+                <h4>You can reach us at:-</h4>
+                <ul>
+                    <li>Name: Supreeti Kushwaha</li>
+                    <li>Contact: +919106438868</li>
+                    <li>Email: sksupreetk11@gmail.com</li>
+                    <li>Address:A-234 ,Greater Heights, Gujarat,India</li>
+                </ul>          
+        </section>
+    </main>
+    <footer>
+            <h4>Copyright</h4>
+             <h3>By Supreeti</h3>
+    </footer>
+    <script type="module" src="index.js"></script>   
 </body>
 </html>
